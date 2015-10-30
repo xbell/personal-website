@@ -1,13 +1,14 @@
 html {
-  background: url("../bellsbeach2copy.jpg") center center fixed;
+  background: url("../reflection.jpg") center center fixed;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
 }
 
-body{
+body {
   margin: 0;
   font-family: sans-serif;
+  color: beige;
 }
 
 .container {
@@ -21,13 +22,9 @@ body{
 .header {
   background-color: rgba(19, 23, 20, 0.78);
   opacity: .6;
-  height: 400px;
+  height: 700px;
   display: block;
   width: 100%;
-}
-
-.intro {
-  text-align: left;
 }
 
 .header h1 {
@@ -35,88 +32,45 @@ body{
   font-size: 325%;
   text-align: center;
   padding-top: 6%;
+  /*opacity: .6;*/
+  margin-bottom: 0;
 }
 
-.intro p {
+.about_me {
+  text-align: left;
   color: beige;
-  font-size: 200%;
-  padding-top: 2%;
+}
+
+.about_me .text {
+  font-size: 150%;
+  padding-top: 3%;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
-  width: 36%;
+  width: 80%;
 }
 
-.intro span {
-  color: beige;
-  font-size: 200%;
-  padding-top: 2%;
-  text-align: left;
-  margin-left: au;
-  margin-right: auto;
-      /*width: 36%;*/
+.images {
+  padding: 3%;
+  text-align: center;
 }
 
-.rotating_word {
-  display: block;
-  text-indent: 49%;
-  float: inherit;
-  top: -60px;
-  position: relative;
-}
-
-.rotating_word span {
-  position: absolute;
-  padding-bottom: .5%;
-  opacity: 0;
-  overflow: hidden;
-  width: 100%;
-  color: beige;
-  animation: rotateWordsFirst 18s linear infinite 0s;
-}
-
-.rotating_word span:nth-child(2) {
-  animation-delay: 3s;
-  color: beige;
-}
-
-.rotating_word span:nth-child(3) {
-  animation-delay: 6s;
-  color: beige;
-}
-
-.rotating_word span:nth-child(4) {
-  animation-delay: 9s;
-  color: beige;
-}
-
-.rotating_word span:nth-child(5) {
-  animation-delay: 12s;
-  color: beige;
-}
-
-.rotating_word span:nth-child(6) {
-  animation-delay: 15s;
-  color: beige;
-}
-
-@keyframes rotateWordsFirst {
-    0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
-    8% { opacity: 1; height: 60px; }
-    19% { opacity: 1; height: 60px; }
-	25% { opacity: 0; height: 60px; }
-    100% { opacity: 0; }
+.images img {
+  padding-top: 4%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .navigation {
+  /*background-color: rgba(19, 23, 20, 0.78);*/
   height: 100px;
   width: 100%;
   display: inline-block;
   margin: 0;
-  padding-top: 1%;
   position: relative;
   float: none;
   text-align: center;
+  /*opacity: .6;*/
 }
 
 .navigation ul {
@@ -143,7 +97,7 @@ body{
 }
 
 .navigation a:hover {
-background: rgba(2, 5, 14, 0.79);
+background: rgba(2, 5, 14, 0.56);
 }
 
 .space {
@@ -158,6 +112,12 @@ background: rgba(2, 5, 14, 0.79);
   height: 0;
   padding-bottom: 6%;
 }
+
+/*.social_links {
+  float: left;
+  /*padding-left: 7%;
+  padding-top: 1.5%;*/
+
 
 a, a:hover {
     text-decoration: none;
@@ -182,6 +142,9 @@ a, a:hover {
   padding-top: 12px;
   border-radius: 22px;
   padding-left: 12px;
+  /*-moz-border-radius: 22px;
+  -webkit-border-radius: 22px;
+  -o-border-radius: 22px;*/
 }
 
 .social_links .fa:hover {
