@@ -108,16 +108,9 @@ background: rgba(2, 5, 14, 0.56);
   background-color: rgba(19, 23, 20, 0.78);
   opacity: .6;
   display: block;
-  width: 12%;
-  height: 0;
-  padding-bottom: 6%;
+  width: 140px;
+  height: 70px;
 }
-
-/*.social_links {
-  float: left;
-  /*padding-left: 7%;
-  padding-top: 1.5%;*/
-
 
 a, a:hover {
     text-decoration: none;
@@ -142,9 +135,6 @@ a, a:hover {
   padding-top: 12px;
   border-radius: 22px;
   padding-left: 12px;
-  /*-moz-border-radius: 22px;
-  -webkit-border-radius: 22px;
-  -o-border-radius: 22px;*/
 }
 
 .social_links .fa:hover {

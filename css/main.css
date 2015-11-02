@@ -14,9 +14,9 @@ body{
   padding-top: 15%;
 }
 
-.container .header .text {
+/*.container .header .text {
   margin: 0 auto;
-}
+}*/
 
 .header {
   background-color: rgba(19, 23, 20, 0.78);
@@ -27,7 +27,7 @@ body{
 }
 
 .intro {
-  text-align: left;
+  /*text-align: left;*/
 }
 
 .header h1 {
@@ -39,29 +39,34 @@ body{
 
 .intro p {
   color: beige;
-  font-size: 200%;
+  font-size: 180%;
   padding-top: 2%;
-  text-align: left;
+  /*padding-bottom: 1%;*/
   margin-left: auto;
   margin-right: auto;
-  width: 36%;
+  width: 32%;
+  margin: 0;
+  padding-left: 34%;
+  position: relative;
+  display: inline;
+  /*text-align: center;*/
 }
 
 .intro span {
   color: beige;
-  font-size: 200%;
-  padding-top: 2%;
+  font-size: 180%;
   text-align: left;
-  margin-left: au;
+  margin-left: auto;
   margin-right: auto;
-      /*width: 36%;*/
+}
+
+.intro .text1 {
+  padding-left: 34%;
 }
 
 .rotating_word {
-  display: block;
-  text-indent: 49%;
-  float: inherit;
-  top: -60px;
+  display: inline;
+  text-indent: 10px;
   position: relative;
 }
 
@@ -70,7 +75,7 @@ body{
   padding-bottom: .5%;
   opacity: 0;
   overflow: hidden;
-  width: 100%;
+  width: 500px;
   color: beige;
   animation: rotateWordsFirst 18s linear infinite 0s;
 }
@@ -154,9 +159,8 @@ background: rgba(2, 5, 14, 0.79);
   background-color: rgba(19, 23, 20, 0.78);
   opacity: .6;
   display: block;
-  width: 12%;
-  height: 0;
-  padding-bottom: 6%;
+  width: 140px;
+  height: 70px;
 }
 
 a, a:hover {

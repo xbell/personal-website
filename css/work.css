@@ -122,12 +122,10 @@ background: rgba(2, 5, 14, 0.56);
 
 .footer {
   background-color: rgba(19, 23, 20, 0.78);
-  opacity: .6;
+  opacity: 1;
   display: block;
-  width: 12%;
-  height: 0;
-  padding-bottom: 6%;
-  float: left;
+  width: 140px;
+  height: 70px;
 }
 
 a, a:hover {
